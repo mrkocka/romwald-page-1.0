@@ -119,7 +119,7 @@ nav {
 }
 
 .content {
-  outline: 4px solid rgba(128, 128, 128, 0.226);
+  /* outline: 4px solid rgba(128, 128, 128, 0.226);  */
   width: 90%;
   height: 45rem;
   margin: 0 auto;
@@ -213,6 +213,7 @@ footer {
   width: 100%;
   max-width: 50rem;
   margin-top: 4rem;
+  border-radius: 15px;
 }
 
 .home-content {
@@ -227,7 +228,7 @@ footer {
 .about-content {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .about-box {
@@ -398,6 +399,7 @@ label {
   padding-left: 1rem;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   background-color: rgba(245, 245, 245, 0.767);
+  font-family: titleFont;
 }
 
 .message-area {
@@ -408,6 +410,7 @@ label {
   height: 8rem;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   background-color: rgba(245, 245, 245, 0.767);
+  font-family: titleFont;
 }
 
 .button {
@@ -419,6 +422,7 @@ label {
   background-color: var(--main-imp);
   color: var(--main-text);
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  font-family: menuFont;
 }
 
 .info-box {
@@ -449,8 +453,6 @@ label {
 .bi-telephone-fill {
   filter: drop-shadow(0 0 40px black);
 }
-
-
 
 .soc-box {
   display: flex;
