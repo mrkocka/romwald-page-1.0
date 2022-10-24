@@ -279,15 +279,12 @@ footer {
   color: var(--main-text);
   font-family: menuFont;
   text-align: center;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
-
-
-
 
 /*----------------------------------------------------------------SERVICE-CONTAINER-------------------------------------------------------------------------------------------*/
 
-.service-content{
+.service-content {
   padding: 2rem;
   padding-bottom: 7rem;
   height: auto;
@@ -296,20 +293,18 @@ footer {
   gap: 6rem;
 }
 
-.service-box{
+.service-box {
   display: flex;
   padding: 2rem 3rem;
-/*   background-color: rgba(0, 0, 255, 0.473); */
+  /*   background-color: rgba(0, 0, 255, 0.473); */
   justify-content: space-between;
   background-image: url(../img/paperus.png);
   background-position: center;
   background-size: cover;
-
- 
 }
 
-.service-img{
-/*   background-color: aliceblue; */
+.service-img {
+  /*   background-color: aliceblue; */
   width: 90rem;
   height: 35rem;
   text-align: center;
@@ -319,8 +314,8 @@ footer {
   justify-content: space-around;
 }
 
-.text-service{
-/*   background-color: rgba(255, 255, 0, 0.411); */
+.text-service {
+  /*   background-color: rgba(255, 255, 0, 0.411); */
   padding: 0 4rem;
   text-align: center;
   display: flex;
@@ -329,8 +324,7 @@ footer {
   justify-content: center;
 }
 
-
-.main-image{
+.main-image {
   width: 35rem;
   border-radius: 15px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
@@ -338,12 +332,12 @@ footer {
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.img-bar{
+.img-bar {
   display: flex;
   gap: 1rem;
 }
 
-.bar-image{
+.bar-image {
   width: 13rem;
   border-radius: 15px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
@@ -351,15 +345,119 @@ footer {
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.text-service{
-  color:var(--main-text);
+.text-service {
+  color: var(--main-text);
   text-shadow: 2px 2px 2px black;
 }
 
-.text-service h3{
+.text-service h3 {
   font-size: 3rem;
 }
-.text-service p{
+.text-service p {
   font-size: 1.2rem;
   margin-top: 1rem;
+}
+
+/*----------------------------------------------------------------CONTACT-CONTAINER-------------------------------------------------------------------------------------------*/
+.contact-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-box {
+  width: 80rem;
+  height: 40rem;
+  padding: 0 4rem;
+  background-image: url(../img/paperus.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input-box {
+  width: 50%;
+  height: 35rem;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  height: 35rem;
+}
+.input-area {
+  width: 22rem;
+  height: 3rem;
+  border-radius: 15px;
+  border: 1px solid black;
+  padding-left: 1rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: rgba(245, 245, 245, 0.767);
+}
+
+.message-area {
+  border-radius: 15px;
+  border: 1px solid black;
+  padding: 1rem;
+  width: 25rem;
+  height: 8rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: rgba(245, 245, 245, 0.767);
+}
+
+.button {
+  border-radius: 15px;
+  width: 8rem;
+  height: 2.5rem;
+  font-size: 1.3rem;
+  border: 1px solid black;
+  background-color: var(--main-imp);
+  color: var(--main-text);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.info-box {
+  /* background-color: rgba(255, 255, 0, 0.397); */
+  width: 50%;
+  height: 35rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.8rem;
+}
+.info-box p {
+  font-size: 1.7rem;
+  font-family: titleFont;
+  text-align: center;
+  color: var(--main-text);
+  text-shadow: 1px 1px 2px black;
+}
+
+.info-box-icon {
+  width: 1.5rem;
+}
+
+.bi-envelope-fill {
+  text-shadow: 1px 1px 2px black;
+}
+
+.bi-telephone-fill {
+  filter: drop-shadow(0 0 40px black);
+}
+
+
+
+.soc-box {
+  display: flex;
+  justify-content: center;
+  gap: 1.7rem;
+}
+
+.soc-box-icon {
+  width: 2rem;
 }
