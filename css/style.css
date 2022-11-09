@@ -115,6 +115,7 @@ nav {
   background-repeat: no-repeat;
   width: 100%;
   padding-top: 7rem;
+  padding-bottom: 7rem;
 }
 
 .content {
@@ -131,6 +132,8 @@ footer {
   justify-content: space-around;
   align-items: center;
   background-color: var(--main-imp);
+  position: fixed;
+  bottom: 0;
   width: 100%;
   min-height: 8rem;
   font-family: menuFont;
@@ -198,7 +201,7 @@ footer {
   font-family: titleFont;
   font-style: italic;
   font-weight: 200;
-  margin-top: 1.5rem;
+  /* margin-top: 1.5rem; */
   text-align: center;
 }
 
@@ -214,7 +217,7 @@ footer {
 .welcome-video {
   width: 100%;
   max-width: 50rem;
-  margin: 4rem 0 8rem 0;
+  margin: 1rem 0 8rem 0;
   border-radius: 15px;
 }
 
@@ -231,7 +234,7 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  padding-bottom: 8rem;
+  padding-bottom: 3rem;
 }
 
 .about-title {
@@ -240,7 +243,7 @@ footer {
   font-family: titleFont;
   font-style: italic;
   font-weight: 200;
-  margin-top: 1.5rem;
+/*   margin-top: 1.5rem; */
   text-align: center;
 }
 
@@ -256,7 +259,7 @@ footer {
 
 .porfil img {
   width: 100%;
-  max-width: 395px;
+  max-width: 330px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -277,17 +280,19 @@ footer {
 /*----------------------------------------------------------------prints-CONTAINER-------------------------------------------------------------------------------------------*/
 
 .prints-content {
+  width: 62%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
+  gap: 1.8rem;
   padding: 1rem;
-  padding-bottom: 2rem;
+  padding-bottom: 4rem;
  
 }
 
 .prints-video {
-  width: 35rem;
+  width: 30rem;
   border-radius: 15px;
 }
 
@@ -405,7 +410,7 @@ footer {
   height: 40rem;
   padding: 0 4rem;
   margin:4rem 0 6rem 0 ;
-  background-image: url(../img/paperus.png);
+  background-image: url(../img/paperus2.png);
   background-position: center;
   background-size: cover;
   display: flex;
