@@ -4,3 +4,8 @@
 840px a nav bar határa
 
 
+//TODO Fellépések rész responzivitása 
+
+//TODO Kapcsolatok responzivitása
+
+//TODO Olvashatóbb háttér kelll, lehetőleg pergamenes
