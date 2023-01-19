@@ -4,8 +4,13 @@
 840px a nav bar határa
 
 
-//TODO Fellépések rész responzivitása 
+//TODO Sütik oldalt meg kell csinálni 
 
-//TODO Kapcsolatok responzivitása
+//TODO Adatvédelem oldalt meg kell csinálni 
 
-//TODO Olvashatóbb háttér kelll, lehetőleg pergamenes
+//TODO Impresszum oldalt meg kell csinálni 
+
+//TODO Kapcsolatok oldalt meg kell csinálni 
+
+//TODO Hamburgermenu meg kell csinálni 
+
