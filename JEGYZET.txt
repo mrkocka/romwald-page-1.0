@@ -14,3 +14,16 @@
 
 
 
+
+
+    <meta name="description" content="Romwald vagyok! A szavak mágusa, bűvész és illuzionista. 
+    Legtöbbször falunapokra hívnak, de vállalok gyerekzsúrokat, cégesbulikat is a jó hangulat a védjegyem."/>
+    <meta property="og:title" content="Romwald a szavak mágusa"/>
+    <meta property="og:url" content="https://www.romwaldmagic.hu/"/>
+    <meta property="og:description" content="Falunapokra, gyerekzsúrokat, cégesbulikat egy a közös én és a jó hangulat."/>
+    <meta property="og:image" content="kep#"/>
+    <title>Romwald vagyok, a szavak mágusa! || A jó hangulat a védjegyem</title>
+
+
+
+   
