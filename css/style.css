@@ -101,13 +101,14 @@ nav {
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   justify-content: center;
+  align-items: center;
   margin-right: 1rem;
 }
 .bi-list {
-  font-size: 2.6rem;
+  font-size: 2rem;
   font-weight: bold;
   color: var(--main-text);
-} 
+}
 
 /*------------------------------------------MAIN---------------------------------------------------*/
 
@@ -514,8 +515,8 @@ form {
 /*--------------- ------------------------------------------------- Responsive Mode   ----------------------------------------------------------*/
 @media only screen and (max-width: 1500px) {
   .prints-content {
-    width: 100%;}
-
+    width: 100%;
+  }
 
   .prints-video {
     width: 28rem;
@@ -657,15 +658,40 @@ form {
     display: flex;
   }
 
+  /*-----Navbar--------*/
+
+  .nav-list {
+    transform: translatey(-30rem);
+    /* transition: transform 500ms ease-in-out; */
+    background-color: var(--main-imp);
+    position: absolute;
+    width: 100vw;
+    height: auto;
+    padding: 1rem;
+    top: 5rem;
+    left: 0;
+    flex-direction: column;
+    gap: 0.3rem;
+    /* padding: 0.5rem; */
+    display: flex;
+    z-index: -1;
+  }
+  .nav-list li {
+    margin-bottom: 0.8rem;
+    letter-spacing: 0.2rem;
+  }
+
+  .active {
+    transform: translatey(0);
+    transition: transform 500ms ease-in-out;
+  }
+
   .prints-video {
     width: 30rem;
     border-radius: 15px;
   }
   .prints-content {
     width: 100%;
-  }
-  .nav-list {
-    display: none;
   }
 
   .about-title {

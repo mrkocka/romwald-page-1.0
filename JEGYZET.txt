@@ -14,3 +14,9 @@
 
 //TODO Hamburgermenu meg kell csinálni 
 
+//TODO Popapp kell! 
+
+
+
+
+<i class="bi bi-x-lg"></i>

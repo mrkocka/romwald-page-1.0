@@ -9,7 +9,7 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
     />
     <link rel="stylesheet" href="./css/style.css" />
-    <title>Romwald </title>
+    <title>Romwald</title>
   </head>
   <body>
     <header>
@@ -18,7 +18,7 @@
           <img src="./img/romwaldLogo.png" alt="romwaldLogo" />
         </span>
 
-        <ul class="nav-list">
+        <ul class="nav-list" id="nav-list-JS">
           <li><a href="./index.html">Főoldal</a></li>
           <li><a href="./about.html">Rólam</a></li>
           <li><a href="./prints.html">Trükkök</a></li>
@@ -26,13 +26,15 @@
           <li><a href="./contact.html">Kapcsolat</a></li>
         </ul>
         <span class="hmb-menu">
-          <button class="hmb-menu-btn"><i class="bi bi-list"></i></button>
+          <button class="hmb-menu-btn" id="button-js">
+            <i id="butonIcon" class="bi bi-list"></i>
+          </button>
         </span>
       </nav>
     </header>
     <main class="table">
       <section class="content about-content text-color">
-        <h1 class=" about-title">Romwald vagyok!</h1>
+        <h1 class="about-title">Romwald vagyok!</h1>
         <section class="about-box">
           <div class="porfil">
             <img src="./img/Romwald_profilkep.png" alt="profilképRomwaldról" />
@@ -43,7 +45,7 @@
               szülinapomra is bűvész dobozt, abból tanultam sok-sok trükköt.
               Aztán az idő múlásával az internetről tanultam kártya trükköket.
               (2022. januárjában) kezdtem igazán bele a bűvészetbe. Egy nagy
-              tanítom van akinél még mindig tanulok. 
+              tanítom van akinél még mindig tanulok.
             </p>
           </div>
         </section>
@@ -104,5 +106,6 @@
         </p>
       </section>
     </footer>
+    <script src="./js/main.js"></script>
   </body>
 </html>
