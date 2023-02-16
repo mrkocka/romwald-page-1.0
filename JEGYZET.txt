@@ -23,7 +23,13 @@
     <meta property="og:description" content="Falunapokra, gyerekzsúrokat, cégesbulikat egy a közös én és a jó hangulat."/>
     <meta property="og:image" content="kep#"/>
     <title>Romwald vagyok, a szavak mágusa! || A jó hangulat a védjegyem</title>
+    
+Ami kell a Danitó: 
 
+- EV Adószám 
+- Tevékenységi kör
+- Videok címe 
+- Bemutatkozó szöveg 
 
 
    
