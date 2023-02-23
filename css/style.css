@@ -839,14 +839,17 @@ form {
 @media only screen and (max-width: 430px) {
   .text-service p {
     font-size: 1.2rem;
+    margin-bottom: -0.5rem;
   }
 
   .service-content {
     padding: 0.5rem;
+    gap: 2.5rem;
   }
 
   .contact-box {
     margin: 0rem;
+    height: 46rem;
   }
 
   label {
@@ -867,5 +870,8 @@ form {
 
   .tell {
     margin: 1rem;
+  }
+  .text-service h3 {
+    font-size: 1.8rem;
   }
 }
